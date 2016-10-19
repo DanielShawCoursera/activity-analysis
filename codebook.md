@@ -1,16 +1,16 @@
 Codebook
 -----------------------------------------------------------------------------------------------------------------------------------------------
-Subject 
+##Subject:
 The number of the subject who conducts the experiment. It ranges from 1 to 30
 
-Activity
+##Activity:
 This variable includes six levels: "LAYING","SITTING","STANDING","WALKING","WALKING_DOWNSTAIRS","WALKING_UPSTAIRS"
 
-Other feature variables
+##Other feature variables:
 Each subject has taken several experiments on the same activity. The value of other variables gives the average of trials. They are ranged in [-1,1]
 
 -----------------------------------------------------------------------------------------------------------------------------------------------
-Specific features:
+##Specific features:
 
 The features selected for this database come from the accelerometer and gyroscope 3-axial raw signals tAcc-XYZ and tGyro-XYZ. These time domain signals (prefix 't' to denote time) were captured at a constant rate of 50 Hz. Then they were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. Similarly, the acceleration signal was then separated into body and gravity acceleration signals (tBodyAcc-XYZ and tGravityAcc-XYZ) using another low pass Butterworth filter with a corner frequency of 0.3 Hz. 
 
